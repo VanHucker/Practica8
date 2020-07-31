@@ -17,10 +17,16 @@ public class Practica8 {
     public static void main(String[] args) {
         System.out.println("Practica 8 de git");
         System.out.println("Suma(1,2) = " + suma(1, 2));
+        System.out.println("Multiplica(1,2) = " + multiplica(1, 2));
     }
     
     public static int suma (int a, int b)
     {
         return a + b;
+    }
+    
+    public static int multiplica (int a, int b)
+    {
+        return a * b;
     }
 }
